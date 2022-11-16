@@ -1,6 +1,6 @@
 # Live Football World Cup Scoreboard App
 
-**The scoreboard shows all the ongoing matches and their scores
+The scoreboard shows all the ongoing matches and their scores
 
 ## Available Scripts
 
