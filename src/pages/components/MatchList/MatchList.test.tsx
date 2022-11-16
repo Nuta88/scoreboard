@@ -10,7 +10,7 @@ const match2 = new Match('Spain', 'Brazil', 2, 10);
 const onDeleteMock = jest.fn();
 const onUpdateMock = jest.fn();
 
-describe("MatchList component", () => {
+describe("MatchList component tests", () => {
   test('should render component and open modal', async () => {
     const { getByTestId, getAllByTestId } = render(
       <MatchList matches={[match1, match2]} onDelete={onDeleteMock} onUpdate={onUpdateMock} />

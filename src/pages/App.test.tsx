@@ -3,12 +3,13 @@ import { render, screen, fireEvent, waitFor } from '@testing-library/react';
 
 import App from './App';
 
-describe("App component", () => {
-  test('page should have v and card', () => {
+describe("App component tests", () => {
+  test('page should have container, card and list', () => {
     render(<App />);
     
     expect(screen.getByTestId('board-container')).toBeInTheDocument();
     expect(screen.getByTestId('board-container-card')).toBeInTheDocument();
+    expect(screen.getByTestId('match-list')).toBeInTheDocument();
   });
   test('should open create match modal', async () => {
     const { getByTestId } = render(<App />);
