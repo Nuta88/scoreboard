@@ -1,6 +1,6 @@
 import { calculateTotalScore, scoreTimeMatchComparator, sortMatches } from './utils';
 
-import { Match } from '../../types';
+import { Match } from '../../../types';
 
 describe("Utils test", () => {
   const match1 = new Match('Canada', 'Mexico', 2, 5);

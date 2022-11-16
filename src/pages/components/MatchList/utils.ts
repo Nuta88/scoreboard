@@ -1,4 +1,4 @@
-import { IMatch } from '../../types';
+import { IMatch } from '../../../types';
 
 export const calculateTotalScore = (match: IMatch) => match.homeTeamPoints + match.awayTeamPoints;
 
