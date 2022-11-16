@@ -1,3 +1,12 @@
 .App {
   text-align: center;
 }
+
+.list-item-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding-bottom: .5rem;
+  color: #ffffff;
+}
